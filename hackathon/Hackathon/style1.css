@@ -1,0 +1,193 @@
+.gmaps{
+    padding-left: 100px;
+    padding-top: 50px;
+}
+:root {
+    --color-primary: #0073ff;
+    --color-white: #e9e9e9;
+    --color-black: #141d28;
+    --color-black-1: #212b38;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url(logo/bg.png);
+}
+.big_logo{
+  width: 60px;
+}
+.logo {
+    color: var(--color-white);
+    font-size: 30px;
+}
+.logo span {
+    color: var(--color-primary);
+}
+  /* Menu Bar */
+  .menu-bar {
+    background-color: var(--color-black);
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+    position: relative;
+  }
+  .menu-bar ul {
+    list-style: none;
+    display: flex;
+  }
+  .menu-bar ul li {
+    padding: 10px 30px;
+    position: relative;
+  }
+  .menu-bar ul li a {
+    font-size: 20px;
+    color: var(--color-white);
+    text-decoration: none;
+    transition: all 0.3s;
+  }
+  .menu-bar ul li a:hover {
+    color: var(--color-primary);
+  }
+  .fas {
+    float: right;
+    margin-left: 10px;
+    padding-top: 3px;
+  }
+  .mini_logo{
+    width: 30px;
+  }
+  
+  /* dropdown menu style */
+  
+  .dropdown-menu {
+    display: none;
+  }
+  .menu-bar ul li:hover .dropdown-menu {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: var(--color-black);
+  }
+  .menu-bar ul li:hover .dropdown-menu ul {
+    display: block;
+    margin: 10px;
+  }
+  .menu-bar ul li:hover .dropdown-menu ul li {
+    width: 150px;
+    padding: 10px;
+  }
+  .dropdown-menu-1 {
+    display: none;
+  }
+  .dropdown-menu ul li:hover .dropdown-menu-1 {
+    display: block;
+    position: absolute;
+    left: 150px;
+    top: 0;
+    background-color: var(--color-black);
+  }
+/*Logo*/
+.logo{
+    width: 20px;
+}
+
+/* CSS used in Hospital List (started)*/
+.row1{
+	float: left;
+	width: 50%;
+}
+.hospital-title h2{
+	color: white;
+	font-size: 50px;
+	text-align: center;
+    margin-bottom: 13px;
+    padding-top: 13px;
+}
+#hospital-list-detail{
+	color: white;
+	font-size: 24px;
+	margin-bottom: 5px;
+}
+.box1{
+    width: 100%-5px;
+    height: 300px;
+    margin: 5px 10px 5px 10px;
+    border-radius: 10px;
+    background: #002147;
+}
+.box1 ul li{
+    list-style-type: none;
+    list-style-position: inside;
+    padding: 5px 20px;
+    text-align: center;
+}
+.box2{
+    width: 100%-5px;
+    height: 300px;
+    background: #002147;
+    margin: 5px 10px 5px 5px;
+    border-radius: 10px;
+}
+.box2 ul li{
+    list-style-type: none;
+    list-style-position: inside;
+    padding: 5px 20px;
+    text-align: center;
+}
+.Hospital{
+    display: flex;
+}
+.progress p{
+    color: black;
+    font-size: 18px;
+}
+/* CSS used in Hospital List (ended) */
+
+/* CSS used in green box (started) */
+
+.q{
+    width: 200px;
+    text-align: center;
+    margin-left: 80px;
+    background-color:green
+}
+.green-bar-ul{
+    list-style: none;
+    
+}
+.green-bar{
+    margin: 10px 0;
+  }
+.p{
+    display: flex;
+    border-radius: 50px 50px 50px 50px;
+    background-color: green;
+   
+}
+
+.green-bar-a_tag{
+    color: white;
+    text-decoration: none;
+}
+.green-bar-b_tag{
+    color: whitesmoke;
+}
+
+/* CSS used on green box (ended) */
+
+
+/* Search bar (started)*/
+.search{
+    float: right;
+    color: white;
+    padding: 12px 75px;
+}
+/* Search bar (end) */
